@@ -29,6 +29,7 @@ export default (state = initialState, { type, payload }) => {
     case DELETEBYID_CART:
       return {}
     case DELETEALL_CART:
+      localStorage.setItem('movieData', JSON.stringify([]))
       return []
 
     default:
