@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import 'antd/dist/antd.css'
-import 'react-phone-number-input/style.css'
+import 'antd/dist/antd.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 //Redux
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-// import logger from 'redux-logger';
-// import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import reducers from './redux/reducers';
 //Redux End

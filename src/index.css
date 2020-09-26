@@ -11,11 +11,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.ant-form-item {
-  margin-left: 0px;
-}
 
-.ant-form-item-explain{
-  margin-left: 6px;
-}
-.ant-row {margin-top: 10px;}
